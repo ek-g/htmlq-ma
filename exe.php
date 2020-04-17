@@ -13,7 +13,7 @@
 define('EXPORT_MAIL', 'eero@kuusisto.de');
 
 // export directory, which must be writable (optional)
-define('EXPORT_DIR', dirname(__FILE__).'./../survey_data');
+define('EXPORT_DIR', dirname(__FILE__).'/survey_data/');
 
 // define status
 define('STATUS_OK',					1);
