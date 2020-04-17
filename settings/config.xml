@@ -40,6 +40,9 @@
   <!-- HtmlQ only: disable the in-window back button -->
   <item id="disableBackButton">true</item>
 
+  <!-- Make the font of the cards smaller so that users can read more of the text -->
+ <item id="smallFont">true</item>
+
   <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
   <!-- add label: <label>[STRING]</label> -->
   <!-- add note: <note>[STRING]</note> -->
