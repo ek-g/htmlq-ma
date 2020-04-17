@@ -28,9 +28,9 @@
   <item id="btnContinue">Weiter</item>
   <item id="btnclose">Schließen</item>
   <item id="btnHelp">Hilfe</item>
-  <item id="btnAgreement">Stimme voll und ganz zu</item>
+  <item id="btnAgreement">Stimme zu</item>
   <item id="btnNeutral">Neutral</item>
-  <item id="btnDisagreement">Stimme &uuml;berhaupt nicht zu</item>
+  <item id="btnDisagreement">Stimme nicht zu</item>
   <item id="btnTransfer">Antworten speichern</item>
   <item id="btnMail">Per E-Mail schicken</item>
   <item id="btnPrint">Antworten drucken</item>
