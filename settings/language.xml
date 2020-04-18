@@ -28,9 +28,11 @@
   <item id="btnContinue">Weiter</item>
   <item id="btnclose">Schließen</item>
   <item id="btnHelp">Hilfe</item>
-  <item id="btnAgreement">Stimme zu</item>
+  <item id="btnAgreementstep1">Stimme zu</item>
+  <item id="btnAgreement">Stimme vollkommen zu</item>
   <item id="btnNeutral">Neutral</item>
-  <item id="btnDisagreement">Stimme nicht zu</item>
+  <item id="btnDisagreementstep1">Stimme nicht zu</item>
+  <item id="btnDisagreement">Stimme &#252;berhaupt nicht zu</item>
   <item id="btnTransfer">Antworten speichern</item>
   <item id="btnMail">Per E-Mail schicken</item>
   <item id="btnPrint">Antworten drucken</item>
@@ -88,13 +90,7 @@
   <item id="transferHead">Antworten speichern</item>
   <item id="transferText">You've finished the survey. Please submit your data now.</item>
   <item id="transferFailed">Data submission failed. Please try again or mail your results via email/post.</item>
-  <item id="transferOk">{b}Vielen Dank für Ihre Teilnahme!{/b}{br}{br}
-		Falls Sie noch Fragen oder Anmerkungen haben, können Sie mich gerne per E-Mail kontaktieren:{br}{a href="mailto:eero.kuusisto-gussmann@student.uni-halle.de"}{tt}eero.kuusisto-gussmann@student.uni-halle.de{/tt}{/a}{br}{br}
-		Wenn Sie an dem Gewinnspiel teilnehmen möchten, können Sie unten Ihre E-Mail-Adresse hinterlegen. Die Adresse wird separat gespeichert und {i}nicht{/i} mit Ihren Antworten in Verbindung gesetzt. Wenn Sie nicht teilnehmen möchten, können Sie das Fenster schließen.{br}{br}
-		{form action="send_email.php" method="post"}
-	  E-mail: {input type="text" name="email" placeholder="max@mustermann.de" style="width: 250px;"}{br}{br}
-		{button type="submit" class="btn btn-primary"}Teilnehmen{/button}
-		{/form}</item>
+  <item id="transferOk">Thank you for unsing FlashQ. We would appreciate if you could send us feeddback about this application (bugs, ideas, suggestion, etc.).{br}{br}Christian Hackert{br}{a href="http://www.hackert.biz/flashq" target="_blank"}{u}www.hackert.biz/flashq{/u}{/a}.{br}{br}You can now close your browser window.</item>
 
   <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
   <item id="mailHead">Submit Data</item>
