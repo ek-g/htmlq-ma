@@ -28,10 +28,10 @@
   <item id="btnContinue">Weiter</item>
   <item id="btnclose">Schließen</item>
   <item id="btnHelp">Hilfe</item>
-  <item id="btnAgreementstep1">Stimme zu</item>
+  <item id="btnAgreementShort">Stimme zu</item>
   <item id="btnAgreement">Stimme vollkommen zu</item>
   <item id="btnNeutral">Neutral</item>
-  <item id="btnDisagreementstep1">Stimme nicht zu</item>
+  <item id="btnDisagreementShort">Stimme nicht zu</item>
   <item id="btnDisagreement">Stimme &#252;berhaupt nicht zu</item>
   <item id="btnTransfer">Antworten speichern</item>
   <item id="btnMail">Per E-Mail schicken</item>
