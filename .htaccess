@@ -1,1 +1,5 @@
 Options -Indexes
+<FilesMatch "^(*\.csv)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
