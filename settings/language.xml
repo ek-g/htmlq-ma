@@ -32,7 +32,7 @@
   <item id="btnAgreement">Stimme vollkommen zu</item>
   <item id="btnNeutral">Neutral</item>
   <item id="btnDisagreementShort">Stimme nicht zu</item>
-  <item id="btnDisagreement">Stimme &#252;berhaupt nicht zu</item>
+  <item id="btnDisagreement">Stimme &#252;berhaupt nicht zu</item>  <!-- Umlaut muss umkodiert werden! -->
   <item id="btnTransfer">Antworten speichern</item>
   <item id="btnMail">Per E-Mail schicken</item>
   <item id="btnPrint">Antworten drucken</item>
