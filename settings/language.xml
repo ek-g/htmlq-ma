@@ -44,7 +44,7 @@
 
   <!-- HtmlQ only: In-App Back Button -->
   <item id="backButton">Zurück</item>
-  <item id="fillInRequiredFields">Please fill in all required fields.</item>
+  <item id="fillInRequiredFields">Bitte füllen sie alle markierten Pflichtfelder aus</item>
 
   <!-- errors -->
   <item id="errorHead">Fehler!</item>
