@@ -171,7 +171,7 @@ if($do == 'login') {
 
 		$mheader  = 'From: "FlashQ" <'.EXPORT_MAIL.'>'."\r\n";
 		$mheader .= 'MIME-Version: 1.0'."\r\n";
-		$mheader .= 'Content-Type: text/plain; charset=iso-8859-1'."\r\n";
+		$mheader .= 'Content-Type: text/plain; charset=utf-8'."\r\n";
 		$mheader .= 'Content-Transfer-Encoding: 8bit';
 
 		if(@mail(EXPORT_MAIL, 'FlashQ / '.$name, $mbody, $mheader)) {
