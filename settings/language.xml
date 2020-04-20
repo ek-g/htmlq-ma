@@ -52,7 +52,19 @@
 
   <!-- welcome screen (leave blank to skip screen) -->
   <item id="welcomeHead">Willkommen!</item>
-  <item id="welcomeText">Please note: This is just a demo and no data will be stored. Thanks to Job van Exel, that we can use his survey as an example.{br}{br}Comments and bug reports are highly welcome.{br}{br}Please click on the continue-button.</item>
+  <item id="welcomeText">Please note: This is just a demo and no data will be stored. Thanks to Job van Exel, that we can use his survey as an example.{br}{br}Comments and bug reports are highly welcome.{br}{br}
+
+    <!-- {iframe width="400" height="200"
+  src="https://www.youtube.com/embed/tgbNymZ7vqY"}
+  {/iframe>}{br} -->
+{div class="embed-responsive embed-responsive-16by9"}
+{iframe
+<!-- frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+width="100%" height="300" type="text/html" -->
+src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
+{/div}
+
+    {br}Please click on the continue-button.</item>
 
   <!-- user login, only displayed if access is restricted (see config-file) -->
   <item id="loginHead">User code</item>
@@ -65,6 +77,7 @@
   <!-- introduction (leave blank to skip popup) -->
   <item id="introHead">Introduction</item>
   <item id="introText">This study is about travel behaviour. We are interested in your attitude towards car and public transport as travel alternatives for middle-distance trips.{br}{br}Please maximize your browser window and click on the continue-button to start the survey.</item>
+  <item id="introConsent">Ich bin einverstanden und möchte mitmachen</item>
 
   <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
   <item id="step1Head">Schritt 1 von 5</item>
