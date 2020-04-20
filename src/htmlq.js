@@ -156,6 +156,9 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
                 }],
                 message: ['language', function(language) {
                     return language.introText;
+                }],
+                consent: ['language', function(language) {
+                    return language.introConsent;
                 }]
             },
             next: 'root.step1',
@@ -439,8 +442,8 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
     };
 }])
 
-.controller('MessageCtrl', ['message', 'messageHead', 'MessageModal', 'language', 'config', '$scope', '$state', function(message, messageHead, MessageModal, language, config, $scope, $state) {
-    var modal = MessageModal.show(messageHead, message, config.textAlign, language.btnContinue);
+.controller('MessageCtrl', ['message', 'messageHead', 'consent', 'ConsentModal', 'language', 'config', '$scope', '$state', function(message, messageHead, consent, ConsentModal, language, config, $scope, $state) {
+    var modal = ConsentModal.show(messageHead, message, consent, config.textAlign, language.btnContinue);
 
     modal.result.then(function() {
         $state.go($state.current.next);
@@ -1269,7 +1272,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
             return ret;
         }
         var ret = language['mailBody'] + '\n\n' +
-            strFromParam('uid') + 
+            strFromParam('uid') +
             strFromParam('sort') +
             strFromParam('nneg') +
             strFromParam('nneu') +
@@ -1340,9 +1343,50 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
     };
 }])
 
+.service('ConsentModal', ['$modal', function($modal) {
+    return {
+        show: function(messageHead, message, consent, textAlign, ok) {
+            return modalInstance = $modal.open({
+                templateUrl: 'templates/consent_modal.html',
+                controller: 'ModalConsentCtrl',
+                backdrop: 'static',
+                resolve: {
+                    messageHead: [function() {
+                        return messageHead;
+                    }],
+                    message: [function () {
+                        return message;
+                    }],
+                    consent: [function () {
+                        return consent;
+                    }],
+                    ok: [function() {
+                        return ok;
+                    }],
+                    textAlign: [function() {
+                        return textAlign;
+                    }]
+                }
+            });
+        }
+    };
+}])
+
+
 .controller('ModalInstanceCtrl', ['$scope', '$modalInstance', 'messageHead', 'message', 'ok', 'textAlign', function ($scope, $modalInstance, messageHead, message, ok, textAlign) {
     $scope.messageHead = messageHead;
     $scope.message = message;
+    $scope.okButton = ok;
+    $scope.textAlignRight = (textAlign === "right");
+    $scope.ok = function () {
+        $modalInstance.close();
+    };
+}])
+
+.controller('ModalConsentCtrl', ['$scope', '$modalInstance', 'messageHead', 'message', 'consent', 'ok', 'textAlign', function ($scope, $modalInstance, messageHead, message, consent, ok, textAlign) {
+    $scope.messageHead = messageHead;
+    $scope.message = message;
+    $scope.consent = consent;
     $scope.okButton = ok;
     $scope.textAlignRight = (textAlign === "right");
     $scope.ok = function () {
