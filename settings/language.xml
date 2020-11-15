@@ -40,7 +40,7 @@
   <item id="selectItem">Bitte wählen...</item>
 
   <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
-  <item id="leaveSiteWarning">Your answers will be lost.</item>
+  <item id="leaveSiteWarning">Ihre Antworten gehen verloren, wenn sie das Fenster schließen.</item>
 
   <!-- HtmlQ only: In-App Back Button -->
   <item id="backButton">Zurück</item>
@@ -48,11 +48,17 @@
 
   <!-- errors -->
   <item id="errorHead">Fehler!</item>
-  <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+  <item id="errorWindowTooSmall">Bitte maximieren Sie ihr Browserfenster oder nutzen sie ein Gerät mit einem größeren Bildschirm. Die Erhebung ist leider nicht auf einem Smartphone möglich.</item>
 
   <!-- welcome screen (leave blank to skip screen) -->
   <item id="welcomeHead">Willkommen!</item>
-  <item id="welcomeText">Please note: This is just a demo and no data will be stored. Thanks to Job van Exel, that we can use his survey as an example.{br}{br}Comments and bug reports are highly welcome.{br}{br}
+  <item id="welcomeText">
+    Vielen Dank für Ihr Interesse an meiner Masterarbeit!{br}{br}In der Arbeit geht es um die Einstellungen von Pflegefachpersonen zu ausgewählten aktuellen berufspolitischen Themen (z.B. Pflegekammer, Akademisierung der Pflege).{br}{br}
+    Für die Teilnahme benötigen sie {b}einen Computer{/b} oder {b}ein Tablet{/b} und {b}ca. 15-20 Minuten{/b} Zeit. Es handelt sich {i}nicht{/i} um eine Umfrage, sondern um eine Aufgabe, in der Ihnen Aussagen gezeigt werden, zu denen Sie Stellung nehmen können, indem Sie sie in ein Raster einsortieren. Da alle Aussagen gleichzeitig auf Ihrem Bildschirm dargestellt werden müssen, ist {b}eine Teilnahme mit einem Smartphone leider technisch nicht möglich.{/b}{br}{br}
+
+    Im folgenden Video wird Ihnen der Verlauf kurz vorgestellt (Dauer: 2 Min).
+
+    {br}{br}
 
     <!-- {iframe width="400" height="200"
   src="https://www.youtube.com/embed/tgbNymZ7vqY"}
@@ -64,7 +70,8 @@ width="100%" height="300" type="text/html" -->
 src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
 {/div}
 
-    {br}Please click on the continue-button.</item>
+    {br}Wenn Sie weiterhin teilnehmen möchten, klicken Sie bitte "Weiter". {br}{br}Bei weiteren Fragen dürfen Sie mich jederzeit kontaktieren:{br}
+    Eero Kuusisto-Gussmann ({a href="mailto:eero.kuusisto-gussmann@student.uni-halle.de"}{tt}eero.kuusisto-gussmann@student.uni-halle.de{/tt}{/a})</item>
 
   <!-- user login, only displayed if access is restricted (see config-file) -->
   <item id="loginHead">User code</item>
@@ -75,37 +82,52 @@ src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
   <item id="loginNoConnection">Connection to server failed. Please try again.</item>
 
   <!-- introduction (leave blank to skip popup) -->
-  <item id="introHead">Introduction</item>
-  <item id="introText">This study is about travel behaviour. We are interested in your attitude towards car and public transport as travel alternatives for middle-distance trips.{br}{br}Please maximize your browser window and click on the continue-button to start the survey.</item>
+  <item id="introHead">Einverständniserklärung</item>
+  <item id="introText">In dieser Studie geht es um Ihre persönliche Meinung zu ausgewählten aktuellen berufspolitischen Entwicklungen. Ihnen werden Aussagen angezeigt, die aus Diskussionen in den sozialen Medien sowie aus Stellungnahmen und Positionspapieren von pflegerischen Berufsverbänden und Gewerkschaften gesammelt sind. Sie dürfen Stellung zu diesen Aussagen nehmen, indem Sie sie in ein Raster einsortierten und damit jeder Aussage eine numerische Wert geben. {b}Es gibt keine richtigen oder falschen Antworten — es geht nur um Ihre persönlichen Einstellungen.{/b}{br}{br}
+
+  Die Teilnahme ist möglich, wenn Sie {b}eine examinierte Pflegefachperson{/b} sind (Gesundheits- und (Kinder)krankenpfleger*in, Krankenschwester/-pfleger, Altenpfleger*in, Pflegefachmann/-frau) und {b}in Deutschland in der Pflege arbeiten{/b}.{br}{br}
+
+  Die Ergebnisse helfen die Einstellungen und Erwartungen der Pflegefachpersonen um diese Themen besser zu verstehen.{br}{br}
+
+  {b}Datenschutz:{/b}{br}
+    {p style="font-size:13px;line-height:110%"}Die Teilnahme ist anonym und Sie können am Ende entscheiden, ob Ihre Antworten gespeichert werden. Da die erhobenen Daten nicht zu einer Person zuzuordnen sind, ist das Löschen ihrer Antworten nach der Speicherung nicht mehr möglich. Ihre Antworten werden – zusammen mit anderen – in der anonymen Form veröffentlicht und können auch in weiteren, ähnlichen Studien verwendet werden.{br}{br}
+    Sie können nach der Erhebung Ihre Email-Adressse hinterlegen, um an einer Verlosung von Gutscheinen teilnehmen zu können. Diese Angabe ist freiwillig und keine Bedingung für die Teilnahme. Die Email-Adresse wird für keine weiteren Zwecke verwendet, nicht an dritten weitergegeben und spätestens am 31.05.2020 endgültig gelöscht.{br}{br}
+    Verantwortlicher für den Datenschutz: {br}Eero Kuusisto-Gussmann ({a href="mailto:eero.kuusisto-gussmann@student.uni-halle.de"}{tt}eero.kuusisto-gussmann@student.uni-halle.de{/tt}{/a}){/p}
+    </item>
   <item id="introConsent">Ich bin einverstanden und möchte mitmachen</item>
 
   <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
   <item id="step1Head">Schritt 1 von 5</item>
-  <item id="step1Text">Read the folowing statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for cards you tend to agree with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or press 1, 2, 3 on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.</item>
+  <item id="step1Text">Ihnen werden gleich 21 Aussagen gezeigt. Lesen Sie diese durch und sortieren Sie sie in die abgebildeten Stapeln. Der linke Stapel ist für Aussagen, die eher nicht mit Ihrer Meinung übereinstimmen ("Stimme nicht zu"). Der Stapel auf der rechten Seite ist für Aussagen, die Sie eher zustimmen ("Stimme zu"). In den mittleren Stapel können Sie die Aussagen sortieren, zu denen sie eher neutral sind oder gar keine Meinung haben ("Neutral"). Sie können später noch Ihre Antworten ändern.{br}{br}{i}Hinweis: Nutzen Sie dafür Ihre Maus oder Ihren Finger, wenn Ihr Gerät ein Touchscreen besitzt. Klicken die Aussage mit der linken Maustaste an, halten Sie die Taste gedrückt und ziehen Sie diese in einen Stapel.{br}{br}Wenn Sie diese Informationen erneut lesen möchten, können Sie jederzeit auf "Hilfe" klicken.{/i}
+    <!--Read the folowing statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for cards you tend to agree with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or press 1, 2, 3 on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.-->
+  </item>
 
   <!-- step2: sorting (leave blank to skip popup) -->
   <item id="step2Head">Schritt 2 von 5</item>
-  <item id="step2Text">Take the cards from the "AGREE"-pile and read them again. You can scroll through the statements by using the scroll bar. Next, select the two statements you most agree with and place them on right side of the score sheet below the "+2".{br}{br}Now read the cards in the "DISAGREE"-pile again. Just like before, select the two statements you most disagree with and place them on the left side of the score sheet below the "-2".{br}{br}Next, select the statements you second most agree/disagree with and place them under "+1"/"-1". Follow this procedure for all cards in the "AGREE"- and "DIAGREE"-pile.{br}{br}Finally, read the "NEUTRAL"-cards again and arange them in the remaining open boxes of the score sheet.</item>
+  <item id="step2Text">Lesen Sie als nächstes die Aussagen in Ihrem "Stimme zu"-Stapel. Sie können dafür die Aussagen mit der Maus, mit den Pfeiltasten oder mit Ihrem Finger scrollen. Finden Sie die Aussagen, die Sie am stärksten zustimmen und platzieren Sie diese auf die Spalte ganz rechts (+3). Lesen Sie dann die Aussagen in Ihrer "Stimme nicht zu"-Spalte durch, nehmen Sie die zwei, die sie am stärksten nicht zustimmen und legen Sie diese in die Spalte ganz links (-3). Wiederholen Sie den Vorgang wechselseitig bis nur die neutralen Aussagen übriggeblieben sind. Platzieren Sie diese als die letztes in die freien Felder.{br}{br}{i}Hinweis: Die Aufgabe ist absichtlich so gestaltet, dass Sie nicht z.B. allen Ihren "Stimme zu"-Aussagen den maximalen Wert (+3) zuordnen können. Sie müssen sich Prioritäten setzen und ggf. auch Stellung zu Aussagen nehmen, zu denen Sie eher neutral stehen. Eventuell müssen sie auch Aussagen, die Sie eigentlich zustimmen würden, in die mittlere, neutrale Spalte einsortieren.{br}{br}Sollten Sie das Gefühl haben, dass Sie dadurch zu etwas gezwungen sind, was Ihnen nicht gefällt, können Sie gerne die Nummer der Aussage aufschreiben. Sie haben nachher die Möglichkeit, diese zu kommentieren.{/i}
+      <!-- Take the cards from the "AGREE"-pile and read them again. You can scroll through the statements by using the scroll bar. Next, select the two statements you most agree with and place them on right side of the score sheet below the "+2".{br}{br}Now read the cards in the "DISAGREE"-pile again. Just like before, select the two statements you most disagree with and place them on the left side of the score sheet below the "-2".{br}{br}Next, select the statements you second most agree/disagree with and place them under "+1"/"-1". Follow this procedure for all cards in the "AGREE"- and "DIAGREE"-pile.{br}{br}Finally, read the "NEUTRAL"-cards again and arange them in the remaining open boxes of the score sheet.-->
+    </item>
 
   <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
   <item id="step3Head">Schritt 3 von 5</item>
-  <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and shift cards if you want to.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="step3Text">Sie haben jetzt alle Aussagen sortiert. Sie können noch Ihre Angaben ein mal überprüfen und die Sortierung der Aussagen ändern, wenn Sie Aussagen, deren Plätze sie miteinander tauschen möchten, übereinander ziehen. Wenn Sie fertig sind, klicken Sie bitte auf "Weiter".
+  </item>
 
   <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
   <item id="step4Head">Schritt 4 von 5</item>
-  <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+2" or "-2".{br}{br}{i}Tip: This is a optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="step4Text">Jetzt dürfen Sie noch Ihre Antworten begründen. Warum haben Sie ausgerechnet diesen Aussagen die Maximalwerte (+3/-3) zugeordnet?{br}{br}{i}Hinweis: Dieser Schritt ist freiwillig. Sie können die Felder auch leer lassen. Ihre Kommentare würden aber bei der Auswertung der Ergebnisse helfen.{i}</item>
 
   <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
   <item id="step5Head">Schritt 5 von 5</item>
-  <item id="step5Text">Finally, please answer the following questions regarding your background.{br}{br}{i}Tip: This is a optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="step5Text">Als letztes gibt es noch einige allgemeine Fragen zu Ihrer Person und zu Ihren Werdegang. Darüber hinaus können Sie ein Kommentar hinterlassen.{br}{br}{i}Hinweis: Die mit dem Stern markierten Felder sind verpflichtend.{i}</item>
 
   <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
   <item id="transferHead">Antworten speichern</item>
-  <item id="transferText">You've finished the survey. Please submit your data now.</item>
+  <item id="transferText">Sie sind jetzt fast fertig! Drücken Sie nur noch auf "Antworten speichern", damit Ihre Angaben gespeichert und in die Studie aufgenommen werden.</item>
   <item id="transferFailed">Data submission failed. Please try again or mail your results via email/post.</item>
   <item id="transferOk">{b}Vielen Dank für Ihre Teilnahme!{/b}{br}{br}
  		Falls Sie noch Fragen oder Anmerkungen haben, können Sie mich gerne per E-Mail kontaktieren:{br}{a href="mailto:eero.kuusisto-gussmann@student.uni-halle.de"}{tt}eero.kuusisto-gussmann@student.uni-halle.de{/tt}{/a}{br}{br}
- 		Wenn Sie an dem Gewinnspiel teilnehmen möchten, können Sie unten Ihre E-Mail-Adresse hinterlegen. Die Adresse wird separat gespeichert und {i}nicht{/i} mit Ihren Antworten in Verbindung gesetzt. Wenn Sie nicht teilnehmen möchten, können Sie das Fenster schließen.{br}{br}
+ 		Alle Teilnehmenden haben die Möglichkeit ein 10€ Amazon-Gutschein zu gewinnen. Insgesamt werden 5 Gutscheine verlost. Wenn Sie an der Verlosung teilnehmen möchten, können Sie unten noch Ihre E-Mail-Adresse hinterlegen. Die Adresse wird separat gespeichert und {i}nicht{/i} mit Ihren Antworten in Verbindung gesetzt. Die Adresse wird nur dafür verwendet, um im Falle eines Gewinns mit Ihnen Kontakt aufzunehmen.{br}{br}Wenn Sie nicht teilnehmen möchten, können Sie das Fenster jetzt schließen. Vielen Dank!{br}{br}
  		{form action="send_email.php" method="post"}
  	  E-mail: {input type="text" name="email" placeholder="max@mustermann.de" style="width: 250px;"}{br}{br}
  		{button type="submit" class="btn btn-primary"}Teilnehmen{/button}
