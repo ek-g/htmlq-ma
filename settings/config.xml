@@ -15,7 +15,7 @@
 <config version="1.0" htmlParse="false">
 
   <!-- title of the study -->
-  <item id="studyTitle">Name of your study</item>
+  <item id="studyTitle">Einstellungen von Pflegefachpersonen</item>
 
   <!-- text-align property(left|right) -->
   <item id="textAlign">left</item>
@@ -33,9 +33,9 @@
   <item id="loginUrlMethod"></item>
 
   <!-- activate/deactivate optional steps (true|false) -->
-  <item id="showStep3">false</item>
-  <item id="showStep4">false</item>
-  <item id="showStep5">false</item>
+  <item id="showStep3">true</item>
+  <item id="showStep4">true</item>
+  <item id="showStep5">true</item>
 
   <!-- HtmlQ only: disable the in-window back button -->
   <item id="disableBackButton">true</item>
@@ -49,27 +49,41 @@
   <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
   <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
   <item id="form">
-    <label>Age*</label>
-	<note>Please enter your year of birth (YYYY, eg. 1980).</note>
-	<input type="text" required="true" maxlength="4" restricted="0-9"></input>
+    <label>1. Alter*</label>
+    <input type="radio" required="true">17-20;21-30;31-40;41-50;51-60;61+</input>
 
-    <label>Gender*</label>
-	<note>Please select your gender.</note>
-	<input type="radio" required="true">female;male</input>
+    <label>2. Geschlecht*</label>
+	<input type="radio" required="true">männlich;weiblich;divers;keine Angabe</input>
 
-    <label>Please answer the following questions.</label>
-	<input type="rating2" required="false" scale="Yes;No;">There's a car in my household;I own a car for myself</input>
+  <label>3. Höchster Schulabschluss*</label>
+<note>Falls Sie Ihr Schulabschluss im Ausland gemacht haben, wählen Sie den deutschen Abschluss, der am nächsten ist.</note>
+<input type="radio" required="true">Hauptschulabschluss;Mittlere Reife;Fachabitur;Abitur</input>
 
-    <label>What kind of transportation do you use?</label>
-	<input type="checkbox" required="false">Car;Railroad;Bike</input>
+  <label>4. Berufsbezeichnung*</label>
+<input type="checkbox" required="true">Altenpfleger/in;Gesundheits- und Krankenpfleger;Gesundheits- und Kinderkrankenpfleger;Krankenpfleger/-schwester;Pflegefachmann/-frau</input>
 
-    <label>What kind of transportation do you prefer?</label>
-	<input type="select" required="false">Car;Railroad;Bike</input>
+  <label>5. Abschlussjahr der Ausbildung*</label>
+<note>Geben Sie das Abschlussjahr Ihrer Ausbildung an (z.B. 2005). Falls Sie mehrere von den in Frage 4 genannten Ausbildungen in der Pflege absolviert haben, geben Sie bitte das Abschlussjahr der ersten Ausbildung an.</note>
+<input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
-    <label>Comments</label>
-	<input type="textarea" required="false"></input>
+<label>6. Pflegestudium*</label>
+<input type="radio" required="true">Aktuell Studierende;Bachelor;Master;Promotion;Habilitation;Studium abgebrochen;kein Studium</input>
+<note>Wenn sie "kein Studium" angegeben haben, können Sie die Frage 7 überspringen.</note>
+<label>7. Fachrichtung(en) des Pflegestudiums</label>
+<note>Nur ausfüllen wenn zutreffend.</note>
+<input type="checkbox" required="no">Primärqualifizierendes Pflegestudium;Pflegewissenschaft;Pflegemanagement;Pflegepädagogik;andere Fachrichtung (bitte unten Angeben)</input>
+<input type="text" required="false" maxlenght="50"></input>
 
-    <note bg="false">All fields marked with an * are mandatory.</note>
+<label>8. Mitgliedschaften*</label>
+<note>Ich bin Mitglied bei folgenden Organisationen:</note>
+<input type="checkbox" required="true">DBfK (Deutscher Berufsverband für Pflegeberufe);DBVA (Deutscher Berufsverband für Altenpflege);BeKD (Berufsverband Kinderkrankenpflege Deutschland);Anderer Pflegeverband oder -verein (z.B. DPV, DGP);Pflegekammer;ver.di;Bochumer Bund;Andere Gewerkschaft (z.B. komba)</input>
+
+<label>9. Kommentare</label>
+<note>Hier ist Platz für Ihre Kommentare, falls Sie z.B. zu einer der Aussagen Feedback geben möchten oder Ihre Antworten noch näher erläutern möchten.</note>
+<input type="textarea" required="false"></input>
+
+
+<note bg="false">Alle mit * markierte Angaben sind verpflichtend.</note>
   </item>
 
   <!-- URL for data transmission via POST/GET (leave blank if not required) -->
@@ -78,5 +92,5 @@
   <item id="submitUrlMethod">post</item>
 
   <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
-  <item id="submitMail">yourdomain.com</item>
+  <item id="submitMail">kuusisto.de</item>
  </config>
