@@ -50,7 +50,7 @@
   <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
   <item id="form">
     <label>1. Alter*</label>
-    <input type="radio" required="true">17-20;21-30;31-40;41-50;51-60;61+</input>
+    <input type="radio" required="true">17-19;20-29;30-39;40-49;50-59;60+</input>
 
     <label>2. Geschlecht*</label>
 	<input type="radio" required="true">männlich;weiblich;divers;keine Angabe</input>
@@ -60,6 +60,7 @@
 <input type="radio" required="true">Hauptschulabschluss;Mittlere Reife;Fachabitur;Abitur</input>
 
   <label>4. Berufsbezeichnung*</label>
+  <note>Mehrfachangaben möglich.</note>
 <input type="checkbox" required="true">Altenpfleger/in;Gesundheits- und Krankenpfleger;Gesundheits- und Kinderkrankenpfleger;Krankenpfleger/-schwester;Pflegefachmann/-frau</input>
 
   <label>5. Abschlussjahr der Ausbildung*</label>
@@ -67,10 +68,11 @@
 <input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
 <label>6. Pflegestudium*</label>
-<input type="radio" required="true">Aktuell Studierende;Bachelor;Master;Promotion;Habilitation;Studium abgebrochen;kein Studium</input>
-<note>Wenn sie "kein Studium" angegeben haben, können Sie die Frage 7 überspringen.</note>
+<note>Wenn Sie ein Pflegestudium absolviert haben, geben Sie ihr höchster Abschluss an.</note>
+<input type="radio" required="true">kein Pflegestudium;Studierende (ohne Abschluss);Bachelor;Master;Promotion;Habilitation</input>
+<note>Wenn sie "kein Studium" angegeben haben, können Sie die nächste Frage überspringen.</note>
 <label>7. Fachrichtung(en) des Pflegestudiums</label>
-<note>Nur ausfüllen wenn zutreffend.</note>
+<note>Nur ausfüllen wenn zutreffend. Mehrfachangaben möglich.</note>
 <input type="checkbox" required="no">Primärqualifizierendes Pflegestudium;Pflegewissenschaft;Pflegemanagement;Pflegepädagogik;andere Fachrichtung (bitte unten Angeben)</input>
 <input type="text" required="false" maxlenght="50"></input>
 
