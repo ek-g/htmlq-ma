@@ -6,7 +6,7 @@
 
 <body>
 <div class="container">
-<p><center>Vielen Dank! Ihre E-Mail-Adresse wurde gespeichert.<br><br>
+<p><center>Vielen Dank! Ihre E-Mail-Adresse wurde gespeichert. Falls Sie gewinnen sollen, nehme ich Kontakt mit Ihnen auf.<br><br>
 Sie können das Fenster jetzt schließen.</center></p>
 </div>
 <body>
