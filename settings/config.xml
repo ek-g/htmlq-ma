@@ -56,11 +56,11 @@
 	<input type="radio" required="true">männlich;weiblich;divers;keine Angabe</input>
 
   <label>3. Höchster Schulabschluss*</label>
-<note>Falls Sie Ihr Schulabschluss im Ausland gemacht haben, wählen Sie den deutschen Abschluss, der am nächsten ist.</note>
 <input type="radio" required="true">Hauptschulabschluss;Mittlere Reife;Fachabitur;Abitur</input>
+<note>Falls Sie Ihr Schulabschluss im Ausland gemacht haben, wählen Sie den deutschen Abschluss, der am nächsten ist.</note>
 
   <label>4. Berufsbezeichnung*</label>
-  <note>Mehrfachangaben möglich.</note>
+  <note>Mehrfachangaben sind möglich.</note>
 <input type="checkbox" required="true">Altenpfleger/in;Gesundheits- und Krankenpfleger;Gesundheits- und Kinderkrankenpfleger;Krankenpfleger/-schwester;Pflegefachmann/-frau</input>
 
   <label>5. Abschlussjahr der Ausbildung*</label>
