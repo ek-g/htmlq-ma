@@ -68,11 +68,11 @@
 <input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
 <label>6. Pflegestudium*</label>
-<note>Wenn Sie ein Pflegestudium absolviert haben, geben Sie ihr höchster Abschluss an.</note>
+<note>Wenn Sie ein Pflegestudium absolviert haben, geben Sie Ihren höchsten Abschluss an.</note>
 <input type="radio" required="true">kein Pflegestudium;Studierende (ohne Abschluss);Bachelor;Master;Promotion;Habilitation</input>
 <note>Wenn sie "kein Studium" angegeben haben, können Sie die nächste Frage überspringen.</note>
 <label>7. Fachrichtung(en) des Pflegestudiums</label>
-<note>Nur ausfüllen wenn zutreffend. Mehrfachangaben möglich.</note>
+<note>Nur ausfüllen wenn zutreffend. Mehrfachangaben sind möglich.</note>
 <input type="checkbox" required="no">Primärqualifizierendes Pflegestudium;Pflegewissenschaft;Pflegemanagement;Pflegepädagogik;andere Fachrichtung (bitte unten Angeben)</input>
 <input type="text" required="false" maxlenght="50"></input>
 

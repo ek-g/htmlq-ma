@@ -53,12 +53,12 @@
   <!-- welcome screen (leave blank to skip screen) -->
   <item id="welcomeHead">Willkommen!</item>
   <item id="welcomeText">
-    Vielen Dank für Ihr Interesse an meiner Masterarbeit!{br}{br}Ich studiere Pflege- und Gesundheitswissenschaften an der Martin-Luther-Universität Halle-Wittemberg und möchte in meiner Masterarbeit die Einstellungen von Pflegefachpersonen zu aktuellen berufspolitischen Themen (z.B. Pflegekammer, Akademisierung der Pflege) untersuchen.{br}{br}
-    Für die Teilnahme benötigen sie {b}einen Computer{/b} oder {b}ein Tablet{/b} und {b}ca. 15-20 Minuten{/b} Zeit. Es handelt sich {i}nicht{/i} um eine Umfrage, sondern um eine Aufgabe, in der Ihnen Aussagen gezeigt werden, zu denen Sie Stellung nehmen können, indem Sie sie in ein Raster einsortieren. Da alle Aussagen gleichzeitig auf Ihrem Bildschirm dargestellt werden müssen, ist {b}eine Teilnahme mit einem Smartphone leider technisch nicht möglich.{/b}{br}{br}
+    Vielen Dank für Ihr Interesse an meiner Masterarbeit!{br}{br}Ich studiere Pflege- und Gesundheitswissenschaften an der Martin-Luther-Universität Halle-Wittenberg und möchte in meiner Masterarbeit die Einstellungen und Erwartungen von Pflegefachpersonen zu aktuellen berufspolitischen Entwicklungen (z.B. Pflegekammer, Akademisierung der Pflege) untersuchen.{br}{br}
+    Für die Teilnahme benötigen Sie {b}einen Computer{/b} oder {b}ein Tablet{/b} und {b}ca. 20-25 Minuten{/b} Ihrer Zeit. Es handelt sich {i}nicht{/i} um eine Umfrage, sondern um eine Aufgabe, in welcher Sie zu bestimmten Aussagen Stellung nehmen können, indem Sie diese in ein Raster einsortieren. Da alle Aussagen gleichzeitig auf Ihrem Bildschirm dargestellt werden müssen, ist {b}eine Teilnahme mit einem Smartphone leider technisch nicht möglich.{/b}{br}{br}
 
     Alle Teilnehmenden haben die Möglichkeit einen Amazon-Gutschein in Wert von 10 € zu gewinnen. Insgesamt werden 5 Gutscheine verlost.{br}{br}
 
-    Im folgenden Video wird Ihnen der Verlauf kurz vorgestellt (Dauer: 2 Min).
+    Im folgenden Video wird Ihnen der Verlauf kurz vorgestellt (Dauer: 2 Min - AKTUELL NUR PLATZHALTER!).
 
     {br}{br}
 
@@ -85,14 +85,14 @@ src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
 
   <!-- introduction (leave blank to skip popup) -->
   <item id="introHead">Einverständniserklärung</item>
-  <item id="introText">In dieser Arbeit geht es um Ihre persönliche Meinung zu ausgewählten berufspolitischen Entwicklungen. Ihnen werden Aussagen angezeigt, die aus Diskussionen in den sozialen Medien sowie aus Stellungnahmen und Positionspapieren von pflegerischen Berufsverbänden und Gewerkschaften gesammelt sind. Sie dürfen Stellung zu diesen Aussagen nehmen, indem Sie sie in ein Raster einsortierten und damit jeder Aussage eine numerische Wert geben. {b}Es gibt keine richtigen oder falschen Antworten — es geht nur um Ihre persönlichen Meinung.{/b}{br}{br}
+  <item id="introText">In dieser Arbeit geht es um die Einstellungen und Erwartungen von Pflegefachpersonen zu ausgewählten berufspolitischen Entwicklungen. Ihnen werden Aussagen angezeigt, die aus Diskussionen in den sozialen Medien sowie aus Stellungnahmen und Positionspapieren von pflegerischen Berufsverbänden und Gewerkschaften stammen. Sie dürfen Stellung zu diesen Aussagen nehmen, indem Sie diese in ein Raster einsortierten und damit jeder Aussage einen numerischen Wert geben. {b}Es gibt keine richtigen oder falschen Antworten — es geht nur um Ihre persönliche Meinung.{/b}{br}{br}
 
   Die Teilnahme ist möglich, wenn Sie {b}eine examinierte Pflegefachperson{/b} sind (Gesundheits- und (Kinder)krankenpfleger*in, Krankenschwester/-pfleger, Altenpfleger*in, Pflegefachmann/-frau) und {b}in Deutschland arbeiten{/b}.{br}{br}
 
-  Die Ergebnisse helfen die Einstellungen und Erwartungen der Pflegefachpersonen um diese Themen besser zu verstehen.{br}{br}
+  Die Ergebnisse helfen die Einstellungen und Erwartungen der Pflegefachpersonen besser zu verstehen.{br}{br}
 
   {b}Datenschutz:{/b}{br}
-    {p style="font-size:13px;line-height:110%"}Die Teilnahme ist anonym und Sie können am Ende entscheiden, ob Ihre Antworten gespeichert werden. Da die erhobenen Daten nicht zu einer Person zuzuordnen sind, ist das Löschen ihrer Antworten nach der Speicherung nicht mehr möglich. Ihre Antworten werden – zusammen mit anderen – in der anonymen Form veröffentlicht und können auch in weiteren, ähnlichen Studien verwendet werden.{br}{br}
+    {p style="font-size:13px;line-height:110%"}Die Teilnahme ist anonym. Sie können am Ende entscheiden, ob Ihre Antworten gespeichert werden. Da die erhobenen Daten nicht zu einer Person zuzuordnen sind, ist das Löschen ihrer Daten nach der Speicherung nicht mehr möglich. Ihre Antworten werden – zusammen mit anderen – in der anonymen Form veröffentlicht und können auch in weiteren, ähnlichen Studien verwendet werden.{br}{br}
     Sie können nach der Erhebung Ihre Email-Adressse hinterlegen, um an einer Verlosung von Gutscheinen teilnehmen zu können. Diese Angabe ist freiwillig und keine Bedingung für die Teilnahme. Die Email-Adresse wird separat von Ihren Antworten gespeichert, für keine weiteren Zwecke verwendet, nicht an dritten weitergegeben und spätestens am 31.03.2021 endgültig gelöscht.{br}{br}
     Verantwortlicher für den Datenschutz: {br}Eero Kuusisto-Gussmann ({a href="mailto:eero.kuusisto-gussmann@student.uni-halle.de"}{tt}eero.kuusisto-gussmann@student.uni-halle.de{/tt}{/a}){/p}
     </item>
@@ -100,28 +100,72 @@ src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
 
   <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
   <item id="step1Head">Schritt 1 von 5</item>
-  <item id="step1Text">Ihnen werden zunächst 23 Aussagen einzeln gezeigt. Lesen Sie diese durch und sortieren Sie sie in die abgebildeten Stapeln. Der linke Stapel ist für Aussagen, die eher nicht mit Ihrer Meinung übereinstimmen ("Stimme nicht zu"). Der Stapel auf der rechten Seite ist für Aussagen, die Sie eher zustimmen ("Stimme zu"). In den mittleren Stapel können Sie die Aussagen sortieren, zu denen sie neutral stehen oder eventuell gar keine Meinung haben ("Neutral"). {b}Sie können später Ihre Antworten ändern.{/b}{br}{br}{i}Hinweis: Nutzen Sie dafür Ihre Maus oder Ihren Finger, wenn Ihr Gerät ein Touchscreen besitzt. Klicken die Aussage an, halten Sie sie gedrückt und ziehen Sie diese in einen den abgebildeten Stapel.{br}{br}Wenn Sie diese Informationen erneut lesen oder das Anleitungsvideo erneut sehen möchten, können Sie jederzeit auf "Hilfe" klicken.{/i}
+  <item id="step1Text">Ihnen werden zunächst 23 Aussagen einzeln vorgestellt. Lesen Sie diese durch und sortieren Sie diese in die abgebildeten Stapeln. Der linke Stapel ist für Aussagen, die eher nicht mit Ihrer Meinung übereinstimmen ("Stimme nicht zu"). Der Stapel auf der rechten Seite ist für Aussagen, denen Sie eher zustimmen ("Stimme zu"). In den mittleren Stapel können Sie die Aussagen sortieren, zu denen sie neutral stehen oder eventuell gar keine Meinung haben ("Neutral").{br}{br}{i}Hinweis: Nutzen Sie dafür Ihre Maus oder Ihren Finger, wenn Ihr Gerät ein Touchscreen besitzt. Klicken Sie die Aussage an, halten Sie diese gedrückt und ziehen Sie diese in einen den abgebildeten Stapel.{br}{br}Wenn Sie diese Informationen erneut lesen oder das Anleitungsvideo noch mal sehen möchten, können Sie jederzeit auf "Hilfe" klicken.{/i}{br}{br}
     <!--Read the folowing statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for cards you tend to agree with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or press 1, 2, 3 on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.-->
+{button href="#Anleitung" class="btn btn-default" data-toggle="collapse"}
+{span class="glyphicon glyphicon-film" aria-hidden="true"}{/span} Videoanleitung{/button}{br}{br}
+{div id="Anleitung" class="collapse"}
+{div class="embed-responsive embed-responsive-16by9"}
+{iframe
+<!-- frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+width="100%" height="300" type="text/html" -->
+src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
+{/div}
+{/div}
   </item>
 
   <!-- step2: sorting (leave blank to skip popup) -->
   <item id="step2Head">Schritt 2 von 5</item>
-  <item id="step2Text">Lesen Sie als nächtes die Aussagen in Ihrem "Stimme zu"-Stapel durch. Sie können dafür die Aussagen mit der Maus, mit den Pfeiltasten oder mit Ihrem Finger scrollen. Finden Sie die zwei Aussagen, die Sie am stärksten zustimmen und platzieren Sie diese auf die Spalte ganz rechts (+3). Lesen Sie dann die Aussagen in Ihrer "Stimme nicht zu"-Spalte durch, nehmen Sie die zwei, die sie am stärksten nicht zustimmen und legen Sie diese in die Spalte ganz links (-3). Die vertikale Reihenfolge hat dabei keine Bedeutung. Wiederholen Sie den Vorgang wechselseitig (erst +2, dann -2 usw.) bis nur Ihre neutralen Aussagen übriggeblieben sind. Platzieren Sie diese als letztes in die noch freien Felder.{br}{br}{i}Hinweis: Die Aufgabe ist absichtlich so gestaltet, dass Sie nicht z.B. allen Ihren "Stimme zu"-Aussagen den maximalen Wert (+3) zuordnen können. Sie müssen sich Prioritäten setzen und ggf. auch Stellung zu Aussagen nehmen, zu denen Sie eher neutral stehen. Eventuell müssen sie auch Aussagen, die Sie eigentlich zustimmen oder nicht zustimmen würden, in die mittlere, neutrale Spalte einsortieren.{br}{br}Sollten Sie das Gefühl haben, dass Sie dadurch zu etwas gezwungen sind, was Ihnen nicht gefällt, können Sie gerne die Nummer der Aussage aufschreiben. Sie haben nachher die Möglichkeit Kommentare zu schreiben.{/i}
+  <item id="step2Text">Lesen Sie als nächtes die Aussagen in Ihrem "Stimme zu"-Stapel durch. Sie können dafür die Aussagen mit der Maus, mit den Pfeiltasten oder mit Ihrem Finger scrollen. Finden Sie die zwei Aussagen, die am stärksten mit Ihrer Meinung übereinstimmen und platzieren Sie diese auf die Spalte ganz rechts (+3). Lesen Sie dann die Aussagen in Ihrer "Stimme nicht zu"-Spalte durch, nehmen Sie die zwei, die sie am stärksten nicht zustimmen und legen Sie diese in die Spalte ganz links (-3). Wiederholen Sie den Vorgang wechselseitig (erst +2, dann -2 usw.) bis nur Ihre neutralen Aussagen übriggeblieben sind. Platzieren Sie diese als letztes in die noch freien Felder. Die vertikale Reihenfolge der Aussagen hat dabei keine Bedeutung. {br}{br}{i}Hinweis: Die Aufgabe ist absichtlich so gestaltet, dass Sie nicht z.B. allen Ihren "Stimme zu"-Aussagen den maximalen Wert (+3) zuordnen können. Sie müssen sich Prioritäten setzen und ggf. auch Stellung zu Aussagen nehmen, zu denen Sie eher neutral stehen. Eventuell müssen sie auch Aussagen, denen Sie eigentlich zustimmen oder nicht zustimmen würden, in die mittlere, neutrale Spalte einsortieren.{br}{br}Sollten Sie das Gefühl haben, dass Sie dadurch zu etwas gezwungen sind, was Ihnen nicht gefällt, können Sie gerne die Nummer der Aussage aufschreiben. Sie haben nachher die Möglichkeit dazu einen Kommentar zu schreiben.{/i}{br}{br}
       <!-- Take the cards from the "AGREE"-pile and read them again. You can scroll through the statements by using the scroll bar. Next, select the two statements you most agree with and place them on right side of the score sheet below the "+2".{br}{br}Now read the cards in the "DISAGREE"-pile again. Just like before, select the two statements you most disagree with and place them on the left side of the score sheet below the "-2".{br}{br}Next, select the statements you second most agree/disagree with and place them under "+1"/"-1". Follow this procedure for all cards in the "AGREE"- and "DIAGREE"-pile.{br}{br}Finally, read the "NEUTRAL"-cards again and arange them in the remaining open boxes of the score sheet.-->
+      {button href="#Anleitung" class="btn btn-default" data-toggle="collapse"}
+      {span class="glyphicon glyphicon-film" aria-hidden="true"}{/span} Videoanleitung{/button}{br}{br}
+      {div id="Anleitung" class="collapse"}
+      {div class="embed-responsive embed-responsive-16by9"}
+      {iframe
+      <!-- frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+      width="100%" height="300" type="text/html" -->
+      src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
+      {/div}
+      {/div}
     </item>
 
   <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
   <item id="step3Head">Schritt 3 von 5</item>
-  <item id="step3Text">Sie haben jetzt alle Aussagen sortiert. Sie können noch Ihre Angaben ein mal überprüfen und die Sortierung der Aussagen bei Bedarf ändern. Um dies zu tun können Sie einfach die Aussagen, deren Plätze sie miteinander tauschen möchten, übereinander ziehen bis ein Tausch-Symbol erscheint. Wenn Sie fertig sind und keine Antworten mehr tauschen möchten, klicken Sie bitte auf "Weiter".
+  <item id="step3Text">Sie haben jetzt alle Aussagen sortiert. Sie können noch Ihre Angaben zum letzten Mal überprüfen und die Sortierung der Aussagen bei Bedarf ändern. Um dies zu tun, können Sie einfach die Aussagen, deren Plätze sie miteinander tauschen möchten, übereinander ziehen. Wenn Sie fertig sind, klicken Sie bitte auf "Weiter".
+    {br}{br}
+    {button href="#Anleitung" class="btn btn-default" data-toggle="collapse"}
+    {span class="glyphicon glyphicon-film" aria-hidden="true"}{/span} Videoanleitung{/button}{br}{br}
+    {div id="Anleitung" class="collapse"}
+    {div class="embed-responsive embed-responsive-16by9"}
+    {iframe
+    <!-- frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+    width="100%" height="300" type="text/html" -->
+    src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
+    {/div}
+    {/div}
   </item>
 
   <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
   <item id="step4Head">Schritt 4 von 5</item>
-  <item id="step4Text">Jetzt dürfen Sie noch Ihre Antworten begründen. Warum haben Sie ausgerechnet diesen Aussagen die Maximalwerte (+3/-3) zugeordnet?{br}{br}{i}Hinweis: Dieser Schritt ist freiwillig. Sie können die Felder auch leer lassen. Ihre Kommentare würden aber bei der Auswertung der Ergebnisse helfen.{i}</item>
+  <item id="step4Text">Jetzt dürfen Sie noch Ihre Antworten begründen. Warum haben Sie ausgerechnet diesen Aussagen die Maximalwerte (+3/-3) gegeben?{br}{br}{i}Hinweis: Dieser Schritt ist freiwillig. Sie können die Felder auch leer lassen. Ihre Kommentare würden aber bei der Auswertung der Ergebnisse helfen.{i}
+
+    {br}{br}
+    {button href="#Anleitung" class="btn btn-default" data-toggle="collapse"}
+    {span class="glyphicon glyphicon-film" aria-hidden="true"}{/span} Videoanleitung{/button}{br}{br}
+    {div id="Anleitung" class="collapse"}
+    {div class="embed-responsive embed-responsive-16by9"}
+    {iframe
+    <!-- frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+    width="100%" height="300" type="text/html" -->
+    src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
+    {/div}
+    {/div}
+  </item>
 
   <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
   <item id="step5Head">Schritt 5 von 5</item>
-  <item id="step5Text">Als letztes gibt es noch einige allgemeine Fragen zu Ihrer Person und zu Ihren Werdegang. Darüber hinaus können Sie Kommentare hinterlassen.{br}{br}{i}Hinweis: Die mit dem Stern markierten Felder sind verpflichtend.{i}</item>
+  <item id="step5Text">Als letztes gibt es noch einige allgemeine Fragen zu Ihrer Person und Ihrem Werdegang. Darüber hinaus können Sie Kommentare hinterlassen.{br}{br}{i}Hinweis: Die mit dem Stern markierten Felder sind verpflichtend.{i}</item>
 
   <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
   <item id="transferHead">Antworten speichern</item>
