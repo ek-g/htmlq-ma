@@ -162,7 +162,7 @@ src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
 
   <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
   <item id="step5Head">Schritt 5 von 5</item>
-  <item id="step5Text">Als letztes gibt es noch einige allgemeine Fragen zu Ihrer Person und Ihrem Werdegang. Darüber hinaus können Sie Kommentare hinterlassen.{br}{br}{i}Hinweis: Die mit dem Stern markierten Felder sind verpflichtend.{i}</item>
+  <item id="step5Text">Als letztes gibt es noch einige allgemeine Fragen zu Ihrer Person und Ihrem Werdegang. Darüber hinaus können Sie Kommentare hinterlassen.{br}{br}{i}Hinweis: Die mit einem Stern markierten Felder sind verpflichtend.{i}</item>
 
   <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
   <item id="transferHead">Antworten speichern</item>

@@ -56,32 +56,34 @@
 	<input type="radio" required="true">männlich;weiblich;divers;keine Angabe</input>
 
   <label>3. Höchster Schulabschluss*</label>
+<note>Wenn Sie Ihren Schulabschluss im Ausland gemacht haben, wählen Sie bitte den deutschen Abschluss, der aus Ihrer Sicht am nächsten ist.</note>
 <input type="radio" required="true">Hauptschulabschluss;Mittlere Reife;Fachabitur;Abitur</input>
-<note>Falls Sie Ihr Schulabschluss im Ausland gemacht haben, wählen Sie den deutschen Abschluss, der am nächsten ist.</note>
 
   <label>4. Berufsbezeichnung*</label>
-  <note>Mehrfachangaben sind möglich.</note>
 <input type="checkbox" required="true">Altenpfleger/in;Gesundheits- und Krankenpfleger;Gesundheits- und Kinderkrankenpfleger;Krankenpfleger/-schwester;Pflegefachmann/-frau</input>
+<note>Mehrfachantworten möglich</note>
 
   <label>5. Abschlussjahr der Ausbildung*</label>
-<note>Geben Sie das Abschlussjahr Ihrer Ausbildung an (z.B. 2005). Falls Sie mehrere von den in Frage 4 genannten Ausbildungen in der Pflege absolviert haben, geben Sie bitte das Abschlussjahr der ersten Ausbildung an.</note>
+<note>Geben Sie das Abschlussjahr Ihrer Ausbildung an (z.B. 2005). Falls Sie mehrere von den in Frage 4 genannten Ausbildungen absolviert haben, geben Sie bitte das Abschlussjahr der ersten Ausbildung an.</note>
 <input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
 <label>6. Pflegestudium*</label>
 <note>Wenn Sie ein Pflegestudium absolviert haben, geben Sie Ihren höchsten Abschluss an.</note>
 <input type="radio" required="true">kein Pflegestudium;Studierende (ohne Abschluss);Bachelor;Master;Promotion;Habilitation</input>
-<note>Wenn sie "kein Studium" angegeben haben, können Sie die nächste Frage überspringen.</note>
+
 <label>7. Fachrichtung(en) des Pflegestudiums</label>
-<note>Nur ausfüllen wenn zutreffend. Mehrfachangaben sind möglich.</note>
+<note>Wenn Sie in Frage 6 "kein Studium" angegeben haben, können Sie diese Frage überspringen.</note>
 <input type="checkbox" required="no">Primärqualifizierendes Pflegestudium;Pflegewissenschaft;Pflegemanagement;Pflegepädagogik;andere Fachrichtung (bitte unten Angeben)</input>
 <input type="text" required="false" maxlenght="50"></input>
+<note>Mehrfachantworten möglich</note>
 
-<label>8. Mitgliedschaften*</label>
+<label>8. Mitgliedschaften</label>
 <note>Ich bin Mitglied bei folgenden Organisationen:</note>
-<input type="checkbox" required="true">DBfK (Deutscher Berufsverband für Pflegeberufe);DBVA (Deutscher Berufsverband für Altenpflege);BeKD (Berufsverband Kinderkrankenpflege Deutschland);Anderer Pflegeverband oder -verein (z.B. DPV, DGP);Pflegekammer;ver.di;Bochumer Bund;Andere Gewerkschaft (z.B. komba)</input>
+<input type="checkbox" required="false">DBfK (Deutscher Berufsverband für Pflegeberufe);DBVA (Deutscher Berufsverband für Altenpflege);BeKD (Berufsverband Kinderkrankenpflege Deutschland);Anderer Pflegeverband oder -verein (z.B. DPV, DGP);Pflegekammer;ver.di;Bochumer Bund;Andere Gewerkschaft (z.B. komba)</input>
+<note>Mehrfachantworten möglich</note>
 
 <label>9. Kommentare</label>
-<note>Hier ist Platz für Ihre Kommentare, falls Sie z.B. zu einer der Aussagen Feedback geben möchten oder Ihre Antworten noch näher erläutern möchten.</note>
+<note>Hier ist Platz für Ihre Kommentare, wenn Sie z.B. zu einer der Aussagen Feedback geben möchten oder Ihre Antworten noch näher erläutern möchten.</note>
 <input type="textarea" required="false"></input>
 
 
