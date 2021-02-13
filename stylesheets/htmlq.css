@@ -42,6 +42,10 @@ li.draggable {
     height: 60px;
     padding: 3px;
     margin-bottom: -1px;
+    /*add hyphenation*/
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 .cell .swappable, .cell .draggable-small {
@@ -63,8 +67,8 @@ li.draggable {
 }
 
 .cell.small-font .swappable > div, .cell.small-font .draggable-small > div {
-    font-size: 0.8em;
-    line-height: 1em;
+    font-size: 0.7em;
+    line-height: 0.9em;
 }
 
 .droppable-active {
