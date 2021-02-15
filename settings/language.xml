@@ -129,7 +129,7 @@ src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
 
   <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
   <item id="step3Head">Schritt 3 von 5</item>
-  <item id="step3Text">Sie haben jetzt alle Aussagen sortiert. Sie können noch Ihre Angaben zum letzten Mal überprüfen und die Sortierung der Aussagen bei Bedarf ändern. Um dies zu tun, können Sie einfach die Aussagen, deren Plätze sie miteinander tauschen möchten, übereinander ziehen. Wenn Sie fertig sind, klicken Sie bitte auf "Weiter".
+  <item id="step3Text">Sie haben jetzt alle Aussagen sortiert. Sie können Ihre Angaben noch ein letztes Mal überprüfen und die Sortierung der Aussagen bei Bedarf ändern. Um dies zu tun, können Sie einfach die Aussagen, deren Plätze sie miteinander tauschen möchten, übereinander ziehen. Wenn Sie fertig sind, klicken Sie bitte auf "Weiter".
     {br}{br}
     {button href="#Anleitung" class="btn btn-default" data-toggle="collapse"}
     {span class="glyphicon glyphicon-film" aria-hidden="true"}{/span} Videoanleitung{/button}{br}{br}
