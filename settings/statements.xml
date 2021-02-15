@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!--
+//
+// This is the place for your statements. The maximum
+// number of statements is theoretically unlimited, but
+// less then 50 statements are advisable.
+// If your are using German Umlauts and other special
+// characters, make sure, that you save this XML-file
+// as an UTF-8-document. White-space inbetween the
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and
+// line breaks, is preserved.
+//
+// EXAMPLE
+// Let's define some statements concerning FlashQ:
+// Statement 1: FlashQ is very usefull.
+// Statement 2: I prefer offline surveys.
+// Statement 3: FlashQ is too complicated to configure.
+//
+// Each statement requires a seperate statement-node
+// consisting out of an opening and a closing tag. The
+// statement itself goes between this two tags.
+// The unique statement id is saved as an
+// attribute called 'id'. We have three exmaple
+// statements and we need therefore three statement-
+// nodes and one parent-node.
+//
+// <statements version="1.0" htmlparse="false">
+//   <statement id="1">FlashQ is very usefull.</statement>
+//   <statement id="2">I prefer offline surveys.</statement>
+//   <statement id="3">FlashQ is too complicated to configure</statement>
+// </statements>
+//
+// ===================================================
+//
+-->
+
 <statements version="1.0" htmlParse="false">
-</statements>
   <statement id="1">Aussage 1</statement>
   <statement id="2">Aussage 2</statement>
   <statement id="3">Aussage 3</statement>
@@ -25,4 +60,5 @@
   <statement id="21">Aussage 21</statement>
   <statement id="22">Aussage 22</statement>
   <statement id="23">Aussage 23</statement>
+
 </statements>
