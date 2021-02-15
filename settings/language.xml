@@ -170,7 +170,7 @@ src="https://www.youtube.com/embed/DBXH9jJRaDk" allowfullscreen}{/iframe}
   <item id="transferFailed">Data submission failed. Please try again or mail your results via email/post.</item>
   <item id="transferOk">{b}Vielen Dank für Ihre Teilnahme!{/b}{br}{br}
     Sie können jetzt das Fenster schließen.{br}{br}
- 		Falls Sie Fragen oder Anmerkungen haben, können Sie mich gerne per E-Mail kontaktieren:{br}{a href="mailto:eero.kuusisto-gussmann@student.uni-halle.de"}{tt}eero.kuusisto-gussmann@student.uni-halle.de{/tt}{/a}{br}{br}
+ 		Falls Sie Fragen oder Anmerkungen haben oder über die Ergebnisse informiert werden möchten, können Sie mich gerne per E-Mail kontaktieren:{br}{a href="mailto:eero.kuusisto-gussmann@student.uni-halle.de"}{tt}eero.kuusisto-gussmann@student.uni-halle.de{/tt}{/a}{br}{br}
  		<!--Alle Teilnehmenden haben die Möglichkeit einen Amazon-Gutschein in Wert von 10 € zu gewinnen. Insgesamt werden 5 Gutscheine verlost. Wenn Sie an der Verlosung teilnehmen möchten, können Sie unten noch Ihre E-Mail-Adresse angeben. Die Adresse wird separat gespeichert und {i}nicht{/i} mit Ihren Antworten in Verbindung gesetzt. Die Adresse wird nur dafür verwendet, um im Falle eines Gewinns mit Ihnen Kontakt aufzunehmen.{br}{br}Wenn Sie nicht teilnehmen möchten, können Sie das Fenster jetzt schließen. Vielen Dank!{br}{br}
  		{form action="send_email.php" method="post"}
  	  E-mail: {input type="text" name="email" placeholder="max@mustermann.de" style="width: 250px;"}{br}{br}

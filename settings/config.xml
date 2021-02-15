@@ -56,11 +56,11 @@
 	<input type="radio" required="true">männlich;weiblich;divers;keine Angabe</input>
 
   <label>3. Höchster Schulabschluss*</label>
-<note>Wenn Sie Ihren Schulabschluss im Ausland gemacht haben, wählen Sie bitte den deutschen Abschluss, der aus Ihrer Sicht am nächsten ist.</note>
 <input type="radio" required="true">Hauptschulabschluss;Mittlere Reife;Fachabitur;Abitur</input>
+<note>Wenn Sie Ihren Schulabschluss im Ausland gemacht haben, wählen Sie bitte den deutschen Abschluss, der aus Ihrer Sicht am nächsten ist.</note>
 
   <label>4. Berufsbezeichnung*</label>
-<input type="checkbox" required="true">Altenpfleger/in;Gesundheits- und Krankenpfleger;Gesundheits- und Kinderkrankenpfleger;Krankenpfleger/-schwester;Pflegefachmann/-frau</input>
+<input type="checkbox" required="true">Altenpfleger/in;Gesundheits- und Krankenpfleger/in;Gesundheits- und Kinderkrankenpfleger/in;Krankenpfleger/-schwester;Pflegefachmann/-frau</input>
 <note>Mehrfachantworten möglich</note>
 
   <label>5. Abschlussjahr der Ausbildung*</label>
@@ -69,7 +69,7 @@
 
 <label>6. Pflegestudium*</label>
 <note>Wenn Sie ein Pflegestudium absolviert haben, geben Sie Ihren höchsten Abschluss an.</note>
-<input type="radio" required="true">kein Pflegestudium;Studierende (ohne Abschluss);Bachelor;Master;Promotion;Habilitation</input>
+<input type="radio" required="true">kein Pflegestudium;Studierende/r (ohne Abschluss);Bachelor;Master;Promotion;Habilitation</input>
 
 <label>7. Fachrichtung(en) des Pflegestudiums</label>
 <note>Wenn Sie in Frage 6 "kein Studium" angegeben haben, können Sie diese Frage überspringen.</note>
