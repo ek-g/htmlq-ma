@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//
+// This is the place for your statements. The maximum
+// number of statements is theoretically unlimited, but
+// less then 50 statements are advisable.
+// If your are using German Umlauts and other special
+// characters, make sure, that you save this XML-file
+// as an UTF-8-document. White-space inbetween the
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and
+// line breaks, is preserved.
+//
+// EXAMPLE
+// Let's define some statements concerning FlashQ:
+// Statement 1: FlashQ is very usefull.
+// Statement 2: I prefer offline surveys.
+// Statement 3: FlashQ is too complicated to configure.
+//
+// Each statement requires a seperate statement-node
+// consisting out of an opening and a closing tag. The
+// statement itself goes between this two tags.
+// The unique statement id is saved as an
+// attribute called 'id'. We have three exmaple
+// statements and we need therefore three statement-
+// nodes and one parent-node.
+//
+// <statements version="1.0" htmlparse="false">
+//   <statement id="1">FlashQ is very usefull.</statement>
+//   <statement id="2">I prefer offline surveys.</statement>
+//   <statement id="3">FlashQ is too complicated to configure</statement>
+// </statements>
+//
+// ===================================================
+//
+-->
+
+<statements version="1.0" htmlParse="false">
+  <statement id="1">Aussage 1</statement>
+  <statement id="2">Aussage 2</statement>
+  <statement id="3">Aussage 3</statement>
+  <statement id="4">Aussage 4</statement>
+  <statement id="5">Aussage 5</statement>
+  <statement id="6">Aussage 6</statement>
+  <statement id="7">Aussage 7</statement>
+  <statement id="8">Aussage 8</statement>
+  <statement id="9">Aussage 9</statement>
+  <statement id="10">Aussage 10</statement>
+  <statement id="11">Aussage 11</statement>
+  <statement id="12">Aussage 12</statement>
+  <statement id="13">Aussage 13</statement>
+  <statement id="14">Aussage 14</statement>
+  <statement id="15">Aussage 15</statement>
+  <statement id="16">Aussage 16</statement>
+  <statement id="17">Aussage 17</statement>
+  <statement id="18">Aussage 18</statement>
+  <statement id="19">Aussage 19</statement>
+  <statement id="20">Aussage 20</statement>
+  <statement id="21">Aussage 21</statement>
+  <statement id="22">Aussage 22</statement>
+  <statement id="23">Aussage 23</statement>
+
+</statements>
