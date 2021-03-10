@@ -40,7 +40,7 @@
   <item id="selectItem">Bitte wählen...</item>
 
   <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
-  <item id="leaveSiteWarning">Ihre Antworten gehen verloren, wenn sie das Fenster schließen.</item>
+  <item id="leaveSiteWarning">Achtung! Ihre Antworten gehen verloren, wenn sie das Fenster schließen.</item>
 
   <!-- HtmlQ only: In-App Back Button -->
   <item id="backButton">Zurück</item>
