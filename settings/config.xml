@@ -60,8 +60,7 @@
 <note>Wenn Sie Ihren Schulabschluss im Ausland gemacht haben, wählen Sie bitte den deutschen Abschluss, der aus Ihrer Sicht am nächsten ist.</note>
 
   <label>4. Berufsbezeichnung*</label>
-<input type="checkbox" required="true">Altenpfleger/in;Gesundheits- und Krankenpfleger/in;Gesundheits- und Kinderkrankenpfleger/in;Krankenpfleger/-schwester;Pflegefachmann/-frau</input>
-<note>Mehrfachantworten möglich</note>
+<input type="radio" required="true">Altenpfleger/in;Gesundheits- und Krankenpfleger/in;Gesundheits- und Kinderkrankenpfleger/in;Krankenpfleger/-schwester;Pflegefachmann/-frau</input>
 
   <label>5. Abschlussjahr der Ausbildung*</label>
 <note>Geben Sie das Abschlussjahr Ihrer Ausbildung an (z.B. 2005). Falls Sie mehrere von den in Frage 4 genannten Ausbildungen absolviert haben, geben Sie bitte das Abschlussjahr der ersten Ausbildung an.</note>
@@ -72,14 +71,14 @@
 <input type="radio" required="true">kein Pflegestudium;Studierende/r (ohne Abschluss);Bachelor;Master;Promotion;Habilitation</input>
 
 <label>7. Fachrichtung(en) des Pflegestudiums</label>
-<note>Wenn Sie in Frage 6 "kein Studium" angegeben haben, können Sie diese Frage überspringen.</note>
+<note>Wenn Sie in Frage 6 "kein Pflegestudium" angegeben haben, überspringen Sie bitte diese Frage.</note>
 <input type="checkbox" required="no">Primärqualifizierendes Pflegestudium;Pflegewissenschaft;Pflegemanagement;Pflegepädagogik;andere Fachrichtung (bitte unten Angeben)</input>
 <input type="text" required="false" maxlenght="50"></input>
 <note>Mehrfachantworten möglich</note>
 
 <label>8. Mitgliedschaften</label>
 <note>Ich bin Mitglied bei folgenden Organisationen:</note>
-<input type="checkbox" required="false">DBfK (Deutscher Berufsverband für Pflegeberufe);DBVA (Deutscher Berufsverband für Altenpflege);BeKD (Berufsverband Kinderkrankenpflege Deutschland);Anderer Pflegeverband oder -verein (z.B. DPV, DGP);Pflegekammer;ver.di;Bochumer Bund;Andere Gewerkschaft (z.B. komba)</input>
+<input type="checkbox" required="false">DBfK (Deutscher Berufsverband für Pflegeberufe);DBVA (Deutscher Berufsverband für Altenpflege);BeKD (Berufsverband Kinderkrankenpflege Deutschland);Anderer Pflegeverband oder -verein (z.B. DPV, DGP);Pflegekammer;ver.di;Bochumer Bund;Andere Gewerkschaft (z.B. komba);keine Mitgliedschaften</input>
 <note>Mehrfachantworten möglich</note>
 
 <label>9. Kommentare</label>
