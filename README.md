@@ -2,7 +2,7 @@
 
 by [aproxima Gesellschaft für Markt- und Sozialforschung Weimar](http://www.aproxima.de/).
 
-Modified version by Eero Kuusisto-Gussmann used in his Master's thesis.
+Modified version by Eero Kuusisto-Gussmann used in his Master's thesis: [![DOI](https://zenodo.org/badge/256474904.svg)](https://zenodo.org/badge/latestdoi/256474904)
 
 Q-sorting tool in HTML5. Backwards compatible with settings files of [FlashQ](http://www.hackert.biz/flashq/home/).
 
